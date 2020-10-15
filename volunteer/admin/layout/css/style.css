@@ -1,0 +1,475 @@
+ 
+ 
+body {
+    /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    background-color: #ececec;
+    font-size: 16px;
+   
+    direction:rtl; 
+  
+  
+}
+/***********************************  start log in form with mobile***********************************/
+
+ 
+
+
+
+
+
+ 
+
+
+/***********************************  start log in form***********************************/
+ 
+ 
+.header{
+  position: absolute;
+  top: calc(50% - 35px);
+  left: calc(50% - 255px);
+  z-index: 2;
+}
+
+.header div{
+
+  margin-top:320px;
+        margin-right:500px;
+  color: #fff;
+  font-family: 'Exo', sans-serif;
+  font-size: 35px;
+  font-weight: 200;
+}
+
+.header div span{
+  color:#5379fa !important;
+        color: rgb(23, 58, 179) !important;
+        font-weight: bold;
+}
+
+.login{
+     width: 300px;
+    margin: 100px auto; 
+}
+
+.login input {
+    margin-bottom: 15px;
+}
+.login .title
+{
+  text-align: center;
+}
+ 
+ 
+
+/***********************  End log in form*************************************/
+ 
+
+ 
+.pop_up_alert{
+ z-index:0
+}
+.pop_up_alert .upper{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:rgba(48, 48, 48, 0.74);
+  z-index:1000;
+  display:none;
+}
+ .pop_up_alert .upper .content
+ {
+    width: 50%;
+    margin: 10% auto;
+    text-align: center;
+    background-color: whitesmoke;
+    box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.1);
+    position:relative;
+      z-index:500;
+ }
+ .pop_up_alert .upper .content h3{
+  text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #fff;
+    background-color: #07a5e7;
+    margin: 0;
+ }
+ .pop_up_alert .upper .content p
+ {
+  padding: 20px 65px 10px 65px;
+  color: dimgray;
+ }
+
+.pop_up_alert .upper .content span
+ {
+    position: absolute;
+    top: -15px;
+    left: -20px;
+    padding: 6px;
+    font-size: 22px;
+    background-color: #07a5e7;
+    border-radius: 78px;
+    color: #fff;
+    border: 1px solid #fff;
+    cursor:pointer;
+    -webkit-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    transition:all .5s ease-in-out;
+ }
+.pop_up_alert .upper .content span:hover{
+   color: #ff4a4a;
+   transform:rotate(180deg);
+}
+.pop_up_alert .upper .content button{
+  padding: 7px 27px;
+  margin: 10px;
+  -webkit-transition:all 0.5s ease-in-out;
+  -moz-transition:all 0.5s ease-in-out;
+  transition:all 0.5s ease-in-out;
+   border:0;
+}
+.pop_up_alert .upper .content button:hover{
+      background-color: #e35757;
+      border:0;
+      color:#000
+}
+._alert{
+margin:50px auto;
+text-align:center;
+} 
+.d_err{
+  display:none;
+}
+ul{
+ padding:0;
+ margin: 0; 
+
+}
+
+li{
+list-style-type:none;
+ direction:rtl;
+}
+a{
+  text-align: right;
+}
+/*for tabel arabic*/
+.table th{
+text-align:right;
+}
+
+ /*  Start  of  page Dashboard*/
+.home-stats .stat{
+border-radius: 10px;
+color:#fff;
+padding: 20;
+font-size: 15px;
+ 
+}
+
+.home-stats .stat a{
+color:#fff;
+}
+
+.home-stats .stat a:hover{
+text-decoration: none;
+}
+
+.home-stats .stat span{
+display:block;
+font-size: 60px;
+}
+
+.home-stats .st-Members{
+background-color:#3498bd; 
+}
+
+.home-stats .st-pending{
+  background-color: rgba(85, 85, 85, 0.95);
+}
+
+.home-stats .st-items{
+background-color:#d35400; 
+}
+
+.home-stats .st-anthor{
+background-color:#8e44ad; 
+}
+
+
+.latest{
+
+margin-top: 40px;
+
+}
+
+
+
+/*Start DAshboard page*/
+.container-fluid{
+  margin-top:20%
+}
+.dashboard-stats .stat
+{
+  border:1px solid #888;
+  background-size:#88c;
+  padding: 30px 25px 30px;
+  font-size:18px;
+  border-radius: 10px;
+  color:#fff;
+  -webkit-box-shadow-:0px 9px 15px #888;
+  -moz-box-shadow:0px 9px 15px #888;
+  box-shadow:0px 9px 15px #888;
+  margin-bottom:20px;
+ overflow: hidden;
+ position:relative;
+ }
+ .dashboard-stats .stat i
+ {
+  position:absolute;
+  left:10px;
+  font-size:80px;
+ }
+ 
+
+.dashboard-stats .stat a
+{
+  text-decoration:none;
+  color:#fff;
+}
+.dashboard-stats .stat span
+{
+  display:block;
+  font-size:42px;
+}
+
+.dashboard-stats .members
+{
+   background-color:#0089c6;
+}
+.dashboard-stats .pending
+{
+   background-color:#c0392b;
+}
+.dashboard-stats .items
+{
+   background-color:#d35400;
+}
+.dashboard-stats .comments
+{
+   background-color:#62008b;
+}
+.latest
+{
+  margin-top:20px;
+}
+.latest .action-lasted
+{
+  cursor:pointer;
+}
+.uselul li
+{
+   padding:15px;
+  margin-top:10px;
+  overflow: hidden;
+}
+.uselul li span
+{
+ padding:9px;
+ margin-top:-8px;
+
+}
+.uselul .btn-info,
+.uselul a
+{
+  margin-right: 10px;
+}
+.latest .comment_box
+{
+  margin:5px 0 10px;
+ 
+}
+.latest .comment_box .member-n,
+.latest .comment_box .member-c
+{
+ float:left;
+
+}
+.latest .comment_box .member-n
+{
+  margin-right: 20px;
+  width:80px;
+  margin-top: 12px;
+}
+.latest .comment_box .member-c
+{
+ width:calc(100% - 100px);
+ word-wrap:break-word;
+ padding:15px;
+ background-color:rgba(29, 30, 30, 0.08);
+ position:relative;
+}
+.latest .comment_box .member-c:before
+{
+  content:"";
+  position:absolute;
+  top: 9px;
+  left: -30px;
+  border-width:15px;
+  border-style:solid;
+  border-color:transparent rgba(29, 30, 30, 0.08) transparent transparent;
+}
+
+
+
+
+
+
+/*****************************************************************  Stert of Navbar****************************************************/
+
+.navbar{
+
+    background-color:  #4d4d4d;
+    color: #fff;
+}
+
+
+.navbar .nav  li a{
+    color: #fff;
+}
+ 
+
+.navbar .nav  li:hover a{
+    color:#333; 
+}
+ 
+
+/*  Start  of  page Member*/
+
+.h1
+{
+
+font-size: 55px;
+margin:40px 0;
+font-weight: bold;
+color:#666;
+}
+
+.show-pass{
+
+position:absolute; 
+top:6px;
+right: -30px;
+
+}
+.menu-bar{
+    background-color: #080808;
+    padding: 10px;
+    margin: 1px;
+    border-radius: 7px;
+}
+.menu-bar a
+{
+color:#fff;
+}
+.list-bar{
+      margin: 41px auto;
+    text-align: center;
+}
+.selectted_m{
+  background-color: rgba(8, 8, 8, 0.39);
+padding: 10px;
+margin: 1px;
+border-radius: 7px;
+}
+.add_N{
+      margin: 29px auto;
+    width: 203px;
+
+}
+
+
+.main-table  tr:first-child td{
+
+background-color: #333;
+color:#fff;
+    border: 1px solid #413333;
+
+}
+
+ .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+    border: 1px solid #413333;
+}
+
+
+ 
+
+/*  End  of  page Member*/
+
+ 
+ .error
+ {
+ 
+    text-align: center;
+    width: 89%;
+    margin: 4% 4%;
+ }
+ .done
+ {
+    font-size: 100%;
+    width: 90%;
+    text-align: center;
+    margin: 10px auto;
+ }
+
+ 
+/*suppliers page  */
+.suppliers,
+.suppliers_s
+{
+  margin-top:100px;
+}
+.suppliers_s .table,.suppliers .table{
+  border:1px solid #acacac;
+  background-color: rgba(255, 255, 255, 0.63);
+  box-shadow: 2px 17px 52px rgba(136, 136, 136, 0.43);
+}
+.suppliers_s .table tbody .control a, .suppliers .table tbody .control a{
+   border:1px solid #ddd;
+   padding:5px;
+   margin:0px 5px;
+}
+.suppliers_s  .table tbody tr:hover , .suppliers .table tbody tr:hover{
+  background-color:#ddd;
+}
+.suppliers_s .table thead tr , .suppliers .table thead tr{
+  border-bottom:4px solid rgba(154, 154, 154, 0.19); 
+}
+.supp_edit_form{
+  border:1px solid #ccc;
+  padding:10px;
+  margin:56px auto;
+  overflow:hidden;
+}
+.subcat_m  .input_name_pr_add{
+  margin:21px;
+}
+
+ 
+ 
+
+@media (min-width: 992px){
+  .container {      width: 1100px;}
+ 
+}
+@media (max-width: 992px){
+   
+  .choice a{margin:20px 0}
+}
+
+
+
+
+/*neeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeew*/
